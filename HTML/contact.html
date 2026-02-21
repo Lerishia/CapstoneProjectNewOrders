@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | NewOrders</title>
+    <link rel="stylesheet" href="../CSS/contact.css">
+</head>
+<body>
+
+<!--Navbar-->
+<header class="navbar">
+    <h1 class="logo">NewOrders</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<main class="contact-container">
+    <!--Contact me block-->
+    <section class="contact-card">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <div class="input-group">
+                <label>Name</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="input-group">
+                <label>Message</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+            <!--Submit button-->
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="formResponse"></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>2026 NewOrders | Professional Ordering System</p>
+</footer>
+
+<script src="../JS/contact.js"></script>
+</body>
+</html>

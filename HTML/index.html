@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NewOrders Dashboard</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+<!--NavBar-->
+<header class="navbar">
+    <h1 class="logo">NewOrders</h1>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="dashboard">
+<!--Input ingredient block-->
+    <section class="card">
+        <h2>Create Order</h2>
+
+        <div class="form-group">
+            <input type="text" id="ingredient" placeholder="Enter main ingredient">
+            <button id="generateBtn">Generate Order</button>
+        </div>
+
+        <p id="message"></p>
+        <br>
+        <button class="danger-btn" id="clearBtn">Clear Session</button>
+    </section>
+
+<!--Recipe block-->
+    <section class="card">
+        <h2>Incomplete Orders (<span id="orderCount">0</span>)</h2>
+
+        <div class="form-group">
+            <input type="number" id="orderNumber" placeholder="Order number">
+            <button id="completeBtn">Mark Complete</button>
+        </div>
+
+        <ul id="orderList"></ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>2026 NewOrders | Professional Ordering System</p>
+</footer>
+
+<script src="../JS/index.js"></script>
+</body>
+</html>

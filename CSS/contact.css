@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2b2d42;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #555;
+    font-weight: 500;
+}
+
+nav .active,
+nav a:hover {
+    color: #e63946;
+}
+
+/* Layout */
+.contact-container {
+    flex: 1;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    background: white;
+    padding: 50px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.contact-card h2 {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    background: #e63946;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c1121f;
+}
+
+#formResponse {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+}
