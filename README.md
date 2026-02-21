@@ -1,4 +1,4 @@
-ChefOrders is a professional kitchen order management system designed to help chefs organize and manage recipe requests efficiently. Our system connects with live recipe APIs to generate dynamic meal ideas.
+NewOrders is a professional kitchen order management system designed to help chefs organize and manage recipe requests efficiently. Our system connects with live recipe APIs to generate dynamic meal ideas.
 
 This project demonstrates front-end development using HTML, CSS, JavaScript, API integration, and Local Storage to create a functional and interactive web application.
 
